@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#passwordActual{
+    text-align: center;
+    font-size: 60px;
+    color: red;
+}
+
+h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+li{
+    text-align: justify;
+    font-size: 20px;
+    color: red;
+    list-style: none;
+}
+
+#container{
+    background-color: rgb(78, 78, 78);
+    border: solid white;
+    width: 720px;
+    height: 500px;
+    margin-top: 5rem;
+    padding: 15px;
+}
+
+#title{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#content{
+    border: solid white;
+    width: 695px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#actual{
+    background-color: gray;
+    border: solid white;
+    width: 450px;
+    height: 250px;
+
+}
+
+#past{
+    background-color: gray;
+    border: solid white;
+    width: 450px;
+    height: 250px;
+    overflow: auto;
+}
+
+#buttonArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+button{
+    background-color: red;
+    border-style: inset;
+    border-radius: 20px;
+    font-size: 40px;
+    color: white;
+    pad: 10px;
+}
+
+button:hover{
+    background-color: rgb(163, 0, 0);
+    cursor: pointer;
+
+}
