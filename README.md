@@ -1,6 +1,5 @@
 #Gerador de Senhas
 
-
 Tecnologias utilizada:
 
 - HTML
